@@ -1,2 +1,1 @@
-first text
-Second chance
+#TEXT NEW
