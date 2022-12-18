@@ -1,0 +1,271 @@
+* {
+    font-family: 'Merriweather', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    height: 100px;
+    background-color: rgba(33, 34, 38, 1);
+    border-bottom: #646464 solid 3px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: right;
+    padding: 10px 40px;
+    line-height: 60px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.nav-item a:hover {
+    text-decoration: solid underline rgba(106, 90, 205, 0.5) 4px;
+    color: #646464;
+}
+
+.subheader {
+    background-color: rgba(33, 34, 38, 1);
+    padding: 50px 0px 0px 0px;
+}
+
+.section-item {
+    margin-left: 5px;
+    line-height: 40px;
+}
+
+.icon_mail {
+    position: relative;
+    bottom: 2px; right: 3px;
+}
+
+.icon_discord {
+    position: relative;
+    bottom: 5px; right: 3px;
+}
+
+.icon_adress {
+    position: relative;
+    bottom: 3px; right: 3px;
+}
+
+.icon_telegram {
+    position: relative;
+    bottom: 5px; right: 3px;
+}
+
+.icon_github {
+    position: relative;
+    bottom: 5px; right: 3px;
+}
+
+.subheader_name {
+    font-size: 70px;
+    color: rgb(241, 241, 241);
+    margin-left: 30px;
+}
+
+.subheader_work {
+    color:white;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 60px;
+}
+
+main {
+    height: 1200px;
+    background-color: rgba(33, 34, 38, 1);
+}
+
+.section-item a:hover {
+    text-decoration: solid underline rgba(106, 90, 205, 0.5) 4px;
+    color: #646464;
+}
+
+.main-container {
+    padding: 90px 0px 20px 0px;
+}
+
+#section-subheader_contacts {
+    line-height: 60px;
+}
+
+.section-list {
+    height: 300px;
+    width: 450px;
+    list-style-type: none;
+    line-height: 40px;
+    color: white;
+    padding: 20px 30px 30px 30px;
+}
+
+.icon_email {
+    border-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.icon_telegram2 {
+    border-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.icon_discord2 {
+    border-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.icon_github2 {
+    border-right: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.section_about_me {
+    height: 300px;
+    width: 680px;
+    padding: 25px 40px 40px 40px;
+    list-style-type: none;
+    line-height: 40px;
+    color: white;
+}
+
+#section-subheader_about {
+    font-size: 35px;
+    line-height: 50px;
+    color: white;
+}
+
+.Skills {
+    display: flex;
+    background-color: rgba(33, 34, 38, 1);
+}
+
+.skills-container {
+    display: flex;
+    height: 400px;
+    margin-right: 170px;
+    width: 1200px;
+    background-color: #646464;
+    text-align: left;
+    border-radius: 30px;
+    padding-left: 60px;
+}
+
+#text-skills {
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.section_skills {
+    justify-content: left;
+    text-align: left;
+    font-size: 25px;
+}
+
+.skills_item {
+    margin: 20px 40px 0px 40px;
+}
+
+#text-code {
+    margin-top: 30px;
+    font-size: 40px;
+    color: white;
+    margin-left: 15px;
+}
+
+.text-codes {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.Education {
+    margin-top: 70px;
+    display: flex;
+    height: 350px;
+    background-color: rgba(33, 34, 38, 1);
+}
+
+#education_text {
+    color: white;
+}
+
+#courses_text {
+    color: white;
+}
+
+#English_text {
+    color: white;
+    margin-top: 60px;
+}
+
+.education_year {
+    color: white;
+    line-height: 30px;
+}
+
+.courses_year {
+    color:white;
+    line-height: 30px;
+}
+
+.English_year {
+    color:white;
+    line-height: 30px;
+}
+
+footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+.info {
+    margin: 0 auto;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    justify-items: center;
+}
+
+.footer_logo {
+    width: 100px;
+    height: 50px;
+    margin-left: 250px;
+}
+
+.info_links {
+    width: 1500px;
+}
+
+.footer_adress {
+    margin-left: 850px;
+}
+
+.year_CV {
+    margin-left: 400px;
+}
